@@ -1,0 +1,37 @@
+mcp_sdk/
+├─ protocol/
+│  ├─ request.py        # MCPRequest
+│  ├─ response.py       # MCPResponse
+│  ├─ errors.py
+│  └─ schema.py
+│
+├─ core/                # PURE FUNCTIONAL CORE
+│  ├─ tools/
+│  │  ├─ __init__.py
+│  │  ├─ generate.py
+│  │  └─ validate.py
+│  │
+│  ├─ dispatcher.py     # route(request) → response
+│  └─ contracts.py      # Tool interfaces
+│
+├─ providers/               # EXTERNAL WORLD ADAPTERS  ← BARU
+│  ├─ __init__.py
+│  │
+│  ├─ pollinations/
+│  │  ├─ __init__.py
+│  │  ├─ text.py
+│  │  ├─ image.py
+│  │  └─ audio.py
+│  │
+│  └─ README.md             # (opsional) contract & caveat
+│
+├─ shell/               # IMPERATIVE SHELL
+│  ├─ cli.py
+│  ├─ stdio.py
+│  └─ http.py
+│
+├─ utils/
+│  ├─ json.py
+│  └─ logging.py
+│
+└─ __init__.py

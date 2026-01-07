@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcp-sdk"
+version = "0.1.0"
+description = "Stateless Model Context Protocol SDK"
+authors = [{name="Hadi", email="lahadiyani@gmail.com"}]
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+
+[project.urls]
+Homepage = "https://github.com/lahadiyani/mcp-sdk"
+
+[project.dependencies]
+anyio = "==4.12.0"
+certifi = "==2025.11.12"
+h11 = "==0.16.0"
+httpcore = "==1.0.9"
+httpx = "==0.28.1"
+idna = "==3.11"
+packaging = "==25.0"
+pillow = "==12.1.0"
+pollinations = "==4.5.1"
+typing_extensions = "==4.15.0"
