@@ -1,5 +1,7 @@
 # MCP SDK — Model Context Protocol (Stateless)
 
+![images](images/thumbs.jpg)
+
 ## Overview
 
 **MCP SDK** adalah SDK eksekusi *stateless* untuk menjalankan *tool* berbasis **Model Context Protocol (MCP)** secara deterministik, modular, dan terisolasi.
